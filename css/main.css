@@ -1,28 +1,32 @@
 *{
   box-sizing: border-box;
-  margin: 5px 0 5px 0;
+  margin: 6px 0 6px 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
 body{
-  min-height: 100vh;
+  min-height: 98vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 0 0 0;
 }
 
 h3{
   text-align: center;
   font-size: 25px;
   color: #474747;
+  margin: 10px 0 20px 0;
 }
 
 hr{
   border: none;
-  height: 3px;
   background-color: #cccccc;
+  color: #cccccc;
+  height: 3px;
 }
+
 .container{
   min-width: 80vh;
 }
@@ -39,7 +43,17 @@ hr{
 .container > .reciept-body > .reciept-data{
   margin: 5px 10px 5px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   color: #636363;
   font-size: 19px;
+}
+
+.container > .reciept-body > .reciept-data > .row-head{
+  min-width: 40%;
+}
+
+textarea{
+  border: none;
+  font-size: 19px;
+  color: #636363;
 }
